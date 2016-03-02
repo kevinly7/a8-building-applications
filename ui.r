@@ -1,6 +1,7 @@
 library(shiny)
 library(dplyr)
 library(stringr)
+library(plotly)
 
 data <- iris
 listOfSpecies <- as.character(unique(data$Species))
